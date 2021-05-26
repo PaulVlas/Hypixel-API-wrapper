@@ -1,0 +1,15 @@
+{
+  "name": "HypixelAPI",
+  "version": "1.0.0",
+  "description": "API Wrapper for Hypixel API",
+  "main": "src/hypixel.ts",
+  "author": "PaulVlas <paul.vlaswinkel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "typescript": "^4.3.2"
+  },
+  "scripts": {
+    "test": "yarn tsc && node bin/test.js"
+  }
+}
